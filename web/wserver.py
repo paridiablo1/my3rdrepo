@@ -22,7 +22,7 @@ aria2 = ariaAPI(ariaClient(host="http://localhost", port=6800, secret=""))
 
 LOGGER = getLogger(__name__)
 
-rawowners = "<h1 style='text-align: center'>See my Channel <a href='https://t.me/JMDKH_Team'>@Telegram</a><br><br>By<br><br><a href='https://github.com/junedkh'>Juned KH</a></h1>"
+rawowners = "Sever Hosted</h1>"
 
 pin_entry = '''
     <section>
@@ -62,7 +62,7 @@ rawindexpage = '''
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Torrent File Selector</title>
+    <title>File Selector</title>
     <link rel="icon" href="//cdn.jsdelivr.net/gh/junedkh/somesrcs@main/poster.png" type="image/jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -86,10 +86,10 @@ rawindexpage = '''
         <div class="brand">
             <img src="//cdn.jsdelivr.net/gh/junedkh/somesrcs@main/poster.png" alt="logo" />
         </div>
-        <h2 class="name">Qbittorrent Selection</h2>
+        <h2 class="name">File Selection</h2>
         <div class="social">
-            <a href="https://www.github.com/junedkh"><i class="fab fa-github"></i></a>
-            <a href="https://t.me/JMDKH_Team"><i class="fab fa-telegram"></i></a>
+            <a href="https://www.github.com"><i class="fab fa-github"></i></a>
+            <a href="https://t.me"><i class="fab fa-telegram"></i></a>
         </div>
     </header>
     <!-- pin_entry -->
@@ -334,7 +334,7 @@ rawindexpage = '''
 </body>
 
 <footer style="height: 30%;">
-   
+    
 </footer>
 
 </html>
@@ -842,7 +842,7 @@ def homepage():
 @app.errorhandler(Exception)
 def page_not_found(e):
     return rawindexpage.replace("/* style1 */", stlye1) \
-                    .replace("<!-- Print -->", f"<h1 style='text-align: center;color: red;'>404: Torrent not found! Mostly wrong input. <br><br>Error: {e}</h1>"), 404
+                    .replace("<!-- Print -->", f"<h1 style='text-align: center;color: red;'>404: not found! Mostly wrong input. <br><br>Error: {e}</h1>"), 404
 
 if __name__ == "__main__":
     app.run()
