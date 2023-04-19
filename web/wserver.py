@@ -32,7 +32,7 @@ pin_entry = '''
           <input
             type="text"
             name="pin_code"
-            placeholder="Enter the code that you have got from Telegram to access the Torrent"
+            placeholder="Enter the code that you have got from Telegram to access"
           />
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
