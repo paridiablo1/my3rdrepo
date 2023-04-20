@@ -22,7 +22,7 @@ page = """
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Torrent File Selector</title>
+    <title>File Selector</title>
     <link rel="icon" href="https://telegra.ph/file/43af672249c94053356c7.jpg" type="image/jpg">
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -228,7 +228,7 @@ function s_validate() {
           alt="logo"
         />
         <a href="https://t.me/anas_tayyar">
-          <h2 class="name">Bittorrent Selection</h2>
+          <h2 class="name">File Selection</h2>
         </a>
       </div>
       <div class="social">
@@ -419,7 +419,7 @@ code_page = """
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Torrent Code Checker</title>
+    <title>Code Checker</title>
     <link rel="icon" href="https://telegra.ph/file/43af672249c94053356c7.jpg" type="image/jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -620,7 +620,7 @@ section span{
           alt="logo"
         />
         <a href="https://t.me/anas_tayyar">
-          <h2 class="name">Bittorrent Selection</h2>
+          <h2 class="name">File Selection</h2>
         </a>
       </div>
       <div class="social">
@@ -635,7 +635,7 @@ section span{
           <input
             type="text"
             name="pin_code"
-            placeholder="Enter the code that you have got from Telegram to access the Torrent"
+            placeholder="Enter the code that you have got from Telegram to access"
           />
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
@@ -777,7 +777,7 @@ def homepage():
 
 @app.errorhandler(Exception)
 def page_not_found(e):
-    return f"<h1>404: Torrent not found! Mostly wrong input. <br><br>Error: {e}</h2>", 404
+    return f"<h1>404: not found! Mostly wrong input. <br><br>Error: {e}</h2>", 404
 
 if __name__ == "__main__":
     app.run()
