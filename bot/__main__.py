@@ -139,9 +139,9 @@ NOTE: Try each command without any argument to see more detalis.
 /{BotCommands.RestartCommand[0]}: Restart and update the bot (Only Owner & Sudo).
 /{BotCommands.RestartCommand[1]}: Restart all bots and update the bot (Only Owner & Sudo)..
 /log{CMD_SUFFIX}: Get a log file of the bot. Handy for getting crash reports (Only Owner & Sudo).
-/{BotCommands.ShellCommand}: Run shell commands (Only Owner).
-/{BotCommands.EvalCommand}: Run Python Code Line | Lines (Only Owner).
-/{BotCommands.ExecCommand}: Run Commands In Exec (Only Owner).
+/shell{CMD_SUFFIX}: Run shell commands (Only Owner).
+/eval{CMD_SUFFIX}}: Run Python Code Line | Lines (Only Owner).
+/exec{CMD_SUFFIX}: Run Commands In Exec (Only Owner).
 /{BotCommands.ClearLocalsCommand}: Clear {BotCommands.EvalCommand} or {BotCommands.ExecCommand} locals (Only Owner).
 /rss{CMD_SUFFIX}: RSS Menu.
 '''
