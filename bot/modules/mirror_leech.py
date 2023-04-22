@@ -65,7 +65,7 @@ async def _mirror_leech(client, message, isZip=False, extract=False, isQbit=Fals
             elif x == 'd':
                 seed = True
                 index += 1
-            elif x.startswith('d:'):
+            elif x.startswith('xlx:'):
                 seed = True
                 index += 1
                 dargs = x.split(':')
