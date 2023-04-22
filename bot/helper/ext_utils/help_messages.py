@@ -73,11 +73,6 @@ This options should be always after n: or pswd:
 <code>/{cmd}</code> <b>s</b> link or by replying to file/link
 This option should be always before n: or pswd:
 
-<b>Bittorrent seed</b>:
-<code>/{cmd}</code> <b>d</b> link or by replying to file/link
-To specify ratio and seed time add d:ratio:time. Ex: d:0.7:10 (ratio and time) or d:0.7 (only ratio) or d::10 (only time) where time in minutes.
-Those options should be always before n: or pswd:
-
 <b>Multi links only by replying to first link/file:</b>
 <code>/{cmd}</code> 10(number of links/files)
 Number should be always before n: or pswd:
